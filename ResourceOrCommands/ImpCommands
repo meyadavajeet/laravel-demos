@@ -1,0 +1,6 @@
+#Create laravel Project
+> composer create-project --prefer-dist laravel/laravel blog
+
+#Create Migration
+> php artisan make:migration create_products_table --create=products
+//After this command you will find one file in following path "database/migrations" and you have to put bellow code in your migration file for create products table.
